@@ -42,7 +42,13 @@ header {
     padding: 15px;
   }
   
- 
+  .orb-canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:100%;
+  }
+  
   .about__image {
     width: 500px;
   }
@@ -51,6 +57,7 @@ header {
     height: 100px;
   }
   .about {
+    position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,6 +84,7 @@ header {
     max-width: 550px;
   }
   .about {
+   
     /* ... */
     background: url('img/back.png') no-repeat;
     background-position: center;
@@ -357,6 +365,8 @@ footer h3 {
   font-size: 15px;
   margin-left: 5px;
 }
+
+
 
 /* Мобильные устройства */
 @media (max-width: 720px) {
