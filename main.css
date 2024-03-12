@@ -224,7 +224,7 @@ display: flex;
 }
 
 .promo__image {
-background-image: url(img/promo.jpeg);
+background-image: url(img/promo.jpg);
 width: 50%;
 flex-shrink: 0;
 background-size: cover;
@@ -462,10 +462,12 @@ footer {
 }
 .promo__right {
   padding: 50px 10px;
+ 
 }
 .promo__right {
   width: 100%;
   height: 500px;
+  
 }
 }
 
